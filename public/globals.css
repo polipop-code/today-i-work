@@ -1,9 +1,11 @@
 :root {
 	--font-color-b: #1f1f1f;
-	--font-color-w: #fff;
+	--font-color-w: #eff3f8;
 	--title-font-color-b: #2b2b2b;
-	--main-bg-color: #fffffc;
-	--main-link-color: #6a67ce;
+	--main-bg-color: #495C83;
+	--secondary-bg-color: #7A86B6;
+	--accent-bg-color: #C8B6E2;
+	--main-link-color: #C8B6E2;
 	--well-rounded: 2.4rem;
 	--semi-rounded: 11.2rem;
 }
@@ -25,7 +27,7 @@ body {
 	text-rendering: optimizeLegibility;
 	line-height: 1.5;
 	color: var(--font-color-b);
-	background-color: var(--main-bg-color);
+	background-color: var(--secondary-bg-color);
 }
 
 h1,
