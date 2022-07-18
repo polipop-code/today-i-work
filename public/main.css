@@ -1,3 +1,12 @@
+.header--bg img{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	background-image: url("./background.svg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
 .header {
 	width: 100%;
 	margin-bottom: 4rem;
@@ -5,7 +14,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--main-bg-color);
 }
 
 .header h1 {
@@ -13,19 +21,14 @@
 }
 
 .main {
+	margin-bottom: 4rem;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
 
-.main img,
 .main #root {
 	grid-column: 2 / 12;
-}
-
-.main img {
-	width: 100%;
-	margin: 0 auto 4rem;
-	border-radius: var(--well-rounded);
+	min-height: 40rem;
 }
 
 /* Footer */

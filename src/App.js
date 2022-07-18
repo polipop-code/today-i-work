@@ -1,23 +1,39 @@
-import "./App.css";
+import React from "react";
+import { TodoCounter } from "./components/TodoCounter";
+import { TodoList } from "./components/TodoList";
+import { TodoItem } from "./components/TodoItem";
+import { AddTodoButton } from "./components/AddTodoButton";
+import { ChillMusicPlayer } from "./components/ChillMusicPlayer";
+
+const todos = [
+	{
+		text: "hola",
+		completed: false,
+	},
+
+	{
+		text: "adios",
+		completed: false,
+	},
+
+	{
+		text: "XD",
+		completed: false,
+	},
+];
 
 function App() {
 	return (
-		<main className="App">
-			<section className="TODO section">
-				<h3> here is the todo section</h3>
-			</section>
-			<section className="music-section">
-				<label>Change music</label>
-				<input type="text"></input>
-				<iframe
-					width="100%"
-					src="https://www.youtube.com/embed/oXLulNhMgxQ"
-					title="YouTube video player"
-					frameborder="0"
-					allowfullscreen
-				></iframe>
-			</section>
-		</main>
+		<React.Fragment>
+			<TodoCounter />
+			<TodoList>
+				{todos.map((todo) => (
+					<TodoItem />
+				))}
+			</TodoList>
+			<AddTodoButton />
+			<ChillMusicPlayer />
+		</React.Fragment>
 	);
 }
 
