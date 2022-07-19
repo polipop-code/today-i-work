@@ -1,13 +1,19 @@
 :root {
-	--font-color-b: #1f1f1f;
-	--font-color-w: #eff3f8;
-	--title-font-color-b: #2b2b2b;
-	--main-bg-color: #2C3333;
-	--secondary-bg-color: #395b64;
-	--accent-bg-color: #C8B6E2;
-	--main-link-color: #C8B6E2;
-	--well-rounded: 2.4rem;
-	--semi-rounded: 1.2rem;
+	--bg-color-primary: #2c3333;
+	--bg-color-secondary: #395b64;
+	--bg-color-accent: #a5c9ca;
+
+	--font-color-primary: #1f1f1f;
+	--font-color-secondary: #eff3f8;
+
+	--fs-small: 1.4rem;
+	--fs-medium: 1.6rem;
+	--fs-large: 2.4rem;
+	--fs-xl: 2.8rem;
+	--fs-xxl: 3.2rem;
+
+	--border-semirounded: 1.2rem;
+	--border-wellrounded: 2.4rem;
 }
 
 * {
@@ -23,11 +29,11 @@ html {
 
 body {
 	font-family: "Poppins", sans-serif;
-	font-size: 1.6rem;
+	font-size: var(--fs-medium);
 	text-rendering: optimizeLegibility;
 	line-height: 1.5;
-	color: var(--font-color-b);
-	background-color: var(--main-bg-color);
+	color: var(--font-color-secondary);
+	background-color: var(--bg-color-primary);
 }
 
 h1,
@@ -38,22 +44,21 @@ h5,
 h6 {
 	font-family: "Montserrat", sans-serif;
 	line-height: normal;
-	color: var(--title-font-color-b);
 }
 
 h1 {
-	font-size: 3.2rem;
+	font-size: var(--fs-xxl);
 }
 h2 {
-	font-size: 2.8rem;
+	font-size: var(--fs-xl);
 }
 h3 {
-	font-size: 2.4rem;
+	font-size: var(--fs-large);
 }
 
 a {
 	text-decoration: none;
-	color: var(--main-link-color);
+	color: var(--bg-color-accent);
 }
 
 ul,
