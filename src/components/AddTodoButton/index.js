@@ -3,9 +3,8 @@ import "./AddTodoButton.css"
 
 function AddTodoButton() {
 	return (
-		<section className="TodayWorks">
+		<section className="AddTodoButton">
 			<button>+</button>
-			<h3>To-Day works</h3>
 		</section>
 	);
 }

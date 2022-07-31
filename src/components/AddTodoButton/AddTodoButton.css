@@ -1,17 +1,16 @@
-.TodayWorks {
+.AddTodoButton {
 	width: 100%;
-    margin-bottom: 2rem;
+	margin-bottom: 4rem;
+	padding: 2rem;
 	display: flex;
-    align-items: center;
+	justify-content: center;
 }
 
-.TodayWorks button {
-    width: 4rem;
-    height: 4rem;
-    margin-right: 2rem;
-    border-radius: var(--semi-rounded);
-}
-
-.TodayWorks h3 {
-	color: var(--font-color-w);
+.AddTodoButton button {
+	width: 4.4rem;
+	height: 4.4rem;
+	border: none;
+	color: none;
+	border-radius: var(--border-semirounded);
+	background-color: var(--bg-color-accent);
 }

@@ -1,8 +1,9 @@
-.chill--music-player {
+.ChillMusicPlayer {
 	width: 100%;
 	padding: 1.2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--secondary-bg-color);
+	border-radius: 0.4rem;
+	background-color: var(--bg-color-secondary);
 }

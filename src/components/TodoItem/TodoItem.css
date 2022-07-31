@@ -1,0 +1,20 @@
+.TodoItem {
+	width: 100%;
+	margin-bottom: 2rem;
+	padding: 1.2rem;
+	display: flex;
+	border-radius: var(--border-semirounded);
+	background-color: var(--bg-color-secondary);
+}
+
+.TodoItem p {
+	width: 100%;
+}
+
+.TodoItem button {
+	width: 4rem;
+	height: 4rem;
+	margin: 0 0.4rem 0;
+	border: none;
+	border-radius: var(--border-semirounded);
+}
