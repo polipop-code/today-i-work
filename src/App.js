@@ -7,7 +7,7 @@ import { ChillMusicPlayer } from "./components/ChillMusicPlayer";
 
 const todos = [
 	{
-		text: "hola",
+		text: "hola buenas tardes",
 		completed: false,
 	},
 
